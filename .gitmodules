@@ -1,0 +1,9 @@
+[submodule "Cdr-Generator"]
+	path = Cdr-Generator
+	url = https://github.com/bsinemcetiner/Cdr-Generator
+[submodule "Cdr-Processor"]
+	path = Cdr-Processor
+	url = https://github.com/bsinemcetiner/Cdr-Processor
+[submodule "Cdr-Reporter"]
+	path = Cdr-Reporter
+	url = https://github.com/bsinemcetiner/Cdr-Reporter
