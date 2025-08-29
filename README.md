@@ -39,7 +39,6 @@ _-Processor will consume and store them into PostgreSQL._
 
 _-Reporter exposes REST APIs_
 
----
 
 ### 3. Interacting with the API (Swagger / Postman)
 
@@ -87,4 +86,5 @@ Stop all services:
 ```bash
 docker-compose down
 ```
+
 
