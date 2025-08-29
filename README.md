@@ -37,7 +37,19 @@ _-Generator will start producing fake CDRs into Kafka._
 
 _-Processor will consume and store them into PostgreSQL._
 
-_-Reporter exposes REST APIs (default: http://localhost:8080)._
+_-Reporter exposes REST APIs_
+
+---
+
+### 3. Interacting with the API (Swagger / Postman)
+
+The application runs at:  
+- [http://localhost:8080/api/cdrs](http://localhost:8080/api/cdrs)
+
+You can interact with the REST API using:
+
+-  **Swagger UI** → [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+-  **Postman**
 
 ---
 
@@ -75,3 +87,4 @@ Stop all services:
 ```bash
 docker-compose down
 ```
+
